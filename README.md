@@ -1,5 +1,5 @@
 
-# Enterprise Cloud Banking Platform (Sample Project)
+# Enterprise Cloud Banking Platform
 
 This is a sample DevOps / Cloud Engineer portfolio project including:
 
