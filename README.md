@@ -1,7 +1,7 @@
 
 # Enterprise Cloud Banking Platform
 
-This is a sample DevOps / Cloud Engineer portfolio project including:
+This is a Cloud Engineer portfolio project including:
 
 - Python Flask API
 - Docker containerization
