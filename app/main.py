@@ -1,19 +1,3 @@
-
-from flask import Flask, jsonify
-
-app = Flask(__name__)
-
-@app.route("/")
-def home():
-    return jsonify({
-        "service": "Enterprise Cloud Banking API",
-        "status": "running",
-        "version": "1.0.0"
-    })
-
-@app.route("/health")
-def health():
-    return {"status": "UP"}
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+ @app.route("/login")
+ def login():
+     return jsonify({"message":"Login Successful"})
