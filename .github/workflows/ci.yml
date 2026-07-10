@@ -1,18 +1,19 @@
 name: CI Pipeline
 
-On:
- Push:
-   branches:
-     - main
-Jobs:
+on:
+  push:
+    branches:
+      - main
+
+jobs:
   test:
-    runs-on: Ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
-      -name: checkout code
-      uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-      -name: Say Hello
-      run: echo "Hello Github Actions"
+      - name: Say Hello
+        run: echo "Hello GitHub Actions"
 
 
